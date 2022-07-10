@@ -1,0 +1,11 @@
+:root {
+    --main-color: blue;
+}
+
+body {
+    color: var(--main-color, pink);
+}
+
+p {
+    color: var(--main-color, pink);
+}
